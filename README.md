@@ -3,8 +3,7 @@ Fake backend with Nodejs + JsonServer + Fake
 
 ### Installing
 
-- Change extension of db.temp to db.json
-- Install dependencies
+Install dependencies
 
 ```
 $ npm install
