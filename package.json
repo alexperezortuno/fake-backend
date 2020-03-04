@@ -1,0 +1,31 @@
+{
+    "name": "fake-backend",
+    "version": "1.0.0",
+    "description": "Fake backend for testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexperezortuno/fake-backend.git"
+    },
+    "keywords": [
+        "node",
+        "faker",
+        "json-server",
+        "npm"
+    ],
+    "author": "Alexander Perez O",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alexperezortuno/fake-backend/issues"
+    },
+    "homepage": "https://github.com/alexperezortuno/fake-backend#readme",
+    "dependencies": {
+        "faker": "^4.1.0",
+        "json-server": "^0.16.1",
+        "lowdb": "^1.0.0"
+    }
+}
