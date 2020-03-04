@@ -2,12 +2,11 @@
     "passfail": false,
     "maxerr": 100,
     "browser": true,
-    "node": false,
+    "node": true,
     "rhino": false,
     "couch": false,
     "wsh": true,
     "jquery": true,
-    "ender": true,
     "prototypejs": false,
     "mootools": false,
     "dojo": false,
@@ -15,7 +14,7 @@
     ],
     "debug": false,
     "devel": true,
-    "es5": true,
+    "esversion": 6,
     "strict": false,
     "globalstrict": false,
     "asi": true,
@@ -32,8 +31,6 @@
     "latedef": true,
     "loopfunc": false,
     "noarg": true,
-    "regexp": true,
-    "regexdash": false,
     "scripturl": true,
     "shadow": false,
     "supernew": false,
@@ -47,5 +44,5 @@
     "sub": false,
     "trailing": true,
     "white": false,
-    "indent": 2
+    "indent": 4
 }

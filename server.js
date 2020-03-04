@@ -2,7 +2,7 @@ const jsonServer = require('json-server');
 const _ = require('lodash');
 const server = jsonServer.create();
 const path = require('path');
-const middlewares = jsonServer.defaults();
+const middleWares = jsonServer.defaults();
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('db.json');
@@ -13,7 +13,7 @@ db.defaults({users: []})
     .write();
 
 server.use(jsonServer.bodyParser);
-server.use(middlewares);
+server.use(middleWares);
 
 server.use(jsonServer.rewriter({
     '/api/users': '/users'
